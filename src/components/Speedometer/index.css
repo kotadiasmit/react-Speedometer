@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.container {
+  background-color: black;
+  background-size: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.heading {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.img {
+  width: 850px;
+}
+.speed {
+  color: white;
+  font-size: 30px;
+}
+.limit {
+  margin-top: 0px;
+  color: #cbd5e1;
+}
+.accelerate {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #0b69ff;
+  margin-right: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
+.brake {
+  background-color: transparent;
+  color: #94a3b8;
+  border-color: #94a3b8;
+  border-radius: 5px;
+  margin-left: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
